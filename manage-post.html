@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+   <!-- Google Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
+ 
+  <!-- Custom Styling -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Admin Styling -->
+  <link rel="stylesheet" href="admin.css">
+
+
+
+  <title>Admin Section - Manage Posts</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <h1 class="logo-text"><span>Niyel</span>Blog</h1>
+    </div>
+    <i class="fa fa-bars menu-toggle"></i>
+    <ul class="nav">
+      
+      <li>
+        <a href="#">
+          <i class="fa fa-user"></i>
+          Daniel Agu
+          <i class="fa fa-chevron-down"></i>
+        </a>
+        <ul>
+          <li><a href="index.html" class="logout">Logout</a></li>
+        </ul>
+      </li>
+    </ul>
+  </header>
+
+  <!-- Admin Wrapper -->
+  <div class="admin-wrapper">
+
+    <!-- Left sidebar -->
+    <div class="admin-sidebar">
+      <div class="left-sidebar  active">
+          <ul>
+              <li><a href="../posts/index.html">Manage Posts</a></li>
+              
+          </ul>
+      </div>
+  
+      <div class="left-sidebar">
+        <ul>
+            <li><a href="manage-user.html">Manage Users</a></li>
+        </ul>
+    </div>
+    <div class="left-sidebar">
+      <ul>
+          <li><a href="manage-topic.html">Manage Topics</a></li>
+      </ul>
+  </div>
+  </div> 
+    <!-- //Left sidebar -->
+    
+    <!-- Admin content -->
+    <div class="admin-content">
+       <div class="button-group">
+           <a class="btn btn-big" href="create-post.html">Add Post</a>
+           <a class="btn btn-big" href="manage-post.html">Manage Post</a>
+       </div>
+       <div class="content">
+           <h2 class="page-title">Manage Post</h2>
+           <table>
+               <th>SN</th>
+               <th>Title</th>
+               <th>Author</th>
+               <th colspan="3">Action</th>
+               <tbody>
+                   <tr>
+                       <td>1</td>
+                       <td>Virtual Reality; The Future Of Socialization</td>
+                       <td>Daniel Agu</td>
+                       <td><a href="#" class="edit">edit</a></td>
+                       <td><a href="#" class="delete">delete</a></td>
+                       <td><a href="#" class="publish">publish</a></td>
+                   </tr>
+                   <tr>
+                       <td>2</td>
+                       <td>Why the Biggest "Myths" About Bank May Actually Be Right</td>
+                       <td>Daniel Agu</td>
+                       <td><a href="#" class="edit">edit</a></td>
+                       <td><a href="#" class="delete">delete</a></td>
+                       <td><a href="#" class="publish">publish</a></td>
+                   </tr>
+                   <tr>
+                       <td>3</td>
+                       <td>10 Startups That'll Change the Tech Industry for the Better</td>
+                       <td>Daniel Agu</td>
+                       <td><a href="#" class="edit">edit</a></td>
+                       <td><a href="#" class="delete">delete</a></td>
+                       <td><a href="#" class="publish">publish</a></td>
+                   </tr>
+                   <tr>
+                       <td>4</td>
+                       <td>How to Master Email Automation in 6 Simple Steps</td>
+                       <td>Daniel Agu</td>
+                       <td><a href="#" class="edit">edit</a></td>
+                       <td><a href="#" class="delete">delete</a></td>
+                       <td><a href="#" class="publish">publish</a></td>
+                   </tr>
+                   <tr>
+                       <td>5</td>
+                       <td>How Did We Get Here? The History of Ecommerce</td>
+                       <td>Daniel Agu</td>
+                       <td><a href="#" class="edit">edit</a></td>
+                       <td><a href="#" class="delete">delete</a></td>
+                       <td><a href="#" class="publish">publish</a></td>
+                   </tr>
+                   <tr>
+                       <td>6</td>
+                       <td>A Beginner's Guide to Email Marketing</td>
+                       <td>Daniel Agu</td>
+                       <td><a href="#" class="edit">edit</a></td>
+                       <td><a href="#" class="delete">delete</a></td>
+                       <td><a href="#" class="publish">publish</a></td>
+                   </tr>
+
+               </tbody>
+           </table>
+       </div>
+    </div>
+    <!-- //Admin content -->
+
+  </div>
+  <!-- //Admin Wrapper -->
+
+ 
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/0e77c07877.js"></script>
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Custom script -->
+  <script src="scripts.js"></script>
+
+</body>
+</html>
